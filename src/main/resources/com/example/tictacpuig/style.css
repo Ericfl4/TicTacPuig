@@ -1,0 +1,27 @@
+#cellBtn {
+    -fx-background-radius: 50;
+    -fx-font-weight: bold;
+    -fx-font-size: 4em;
+    -fx-background-color: #C7C7C750;
+}
+#cellBtn:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #8370cc 0%, #8b79d4 100%),
+            radial-gradient(center 90% 10%, radius 100%, #8370cc, #8b79d4);
+}
+
+#cellBtn:disabled{
+    -fx-background-color: #8370cc;
+}
+
+#tablero{
+    -fx-background-color: #EAEAEA;
+    -fx-border-color: #8b79d4;
+    -fx-border-radius: 35px;
+    -fx-background-radius: 35px;
+}
+
+#modeBtns > .radio-button{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
